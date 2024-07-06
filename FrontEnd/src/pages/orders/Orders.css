@@ -1,0 +1,34 @@
+.dataGridTable {
+    margin: 1rem;
+    background-color: var(--white-50);
+    font-size: 1.1rem !important;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    font-family: Vazir  !important;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MuiDataGrid-cell,
+.MuiDataGrid-cell--textLeft,
+.MuiDataGrid-cell--editable {
+    display: flex  !important;
+    align-items: center  !important;
+    justify-content: center  !important;
+    text-align: center   !important;
+}
+
+
+
+
+.removeBtn-dataGrid {
+    background-color:   #f43939;
+    border-radius: 0.5rem;
+      color:   #effefe;
+      font-size: 1rem  ;
+}

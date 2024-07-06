@@ -1,0 +1,38 @@
+@import url("./reset.css");
+@import url("./ModalDetails.css");
+@font-face {
+    font-family: ٰVazir;
+    src:  url(../Fonts/Vazirmatn-Medium.ttf)  ,  url(../Fonts/Vazirmatn-Bold.ttf)  ,  url(../Fonts/Vazirmatn-Light.ttf)   ,  url(../Fonts/Vazirmatn-ExtraBold.ttf);
+}
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #000;
+    --white-50: #f0f0f0;
+    --main-color: #66A5AD;
+    --back-color: #C4DFE6;
+    --gray-color  : #444  ; 
+    --p-1: 1rem
+}
+
+
+
+body,
+html,
+* {
+
+    font-family: Vazir;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    box-sizing: border-box !important;
+    transition: all 0.5rem ease;
+    
+}
+
+body {
+    background-color: var(--back-color) !important;
+
+}

@@ -1,0 +1,76 @@
+.addNewPro {
+    margin: 1.2rem;
+}
+
+.addNewpro-title {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    margin: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.addNewPro-form {
+    position: relative;
+    background-color: var(--white-50);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.addNewPro-form__wrap {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 15px;
+}
+
+.addNewPro-form__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    position: relative;
+}
+.addNewPro-form__icon {
+    position: absolute;
+    font-size: 1.6rem  ;
+    margin-right: 0.5rem  ;
+}
+.addNewPro-form__inp {
+    width: 100%;
+    padding: 0.7em 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    color: var(--black-color);
+    background-color: #cccccc61;
+    padding-right: 2.5rem  ;
+    
+}
+
+.addNewPro-form__inp::placeholder {
+    font-weight: bold;
+    color: var(--black-color);
+    font-size: 0.9rem;
+    /* padding-right: 2rem; */
+}
+
+.addNewPro-form__btn {
+
+    background-color: var(--main-color);
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    /* position: absolute; */
+    left: 0;
+    margin-left: 1rem;
+    font-size: 1rem  ;
+    margin-top: 2rem;
+
+}

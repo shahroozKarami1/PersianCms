@@ -1,0 +1,74 @@
+.DetailsModal {
+    
+    padding: 0;
+}
+
+.DetailsModal-wrap {
+    padding: 0 !important ; 
+    height: 200px;
+    width: 500px;
+   
+}
+
+.DetailsModal-table {
+    width: 100%;
+}
+
+.DetailsModal-table__thead {
+
+}
+
+.DetailsModal-table__tr {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-evenly !important; 
+    margin: 1rem  0;
+    font-size: 1.4rem  ;
+}
+.DetailsModal-table__tr:nth-child(1) {
+    margin: 1rem       ;
+}
+
+.DetailsModal-table__th {}
+
+.DetailsModal-table__thead {}
+
+.DetailsModal-table__td {
+    font-weight: bold;
+}
+
+.deleteMod-container {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+.deleteMod-wrap {
+    width: 600px;
+    background-color: var(--white-50);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 1rem;
+
+
+}
+
+.deleteMod-container.active {
+    opacity: 1;
+    visibility: visible;
+
+}

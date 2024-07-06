@@ -1,0 +1,54 @@
+.EditModal {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+.EditModal-wrap {
+    width: 600px;
+    background-color: var(--white-50);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.EditModal-Title {
+    font-size: 1.5rem  ;
+    font-weight: bold;
+    margin-bottom: 4rem  ;
+}
+
+.EditModal-btns {
+
+    width: 100%;
+}
+
+.EditModal-btn {
+    width: 100%;
+    background-color: var(--main-color);
+    padding: 0.5rem  ;
+    border-radius: 0.5rem  ;
+    font-size: 1.2rem ;
+}
+
+
+.EditModal.active {
+    opacity: 1;
+    visibility: visible;
+
+}

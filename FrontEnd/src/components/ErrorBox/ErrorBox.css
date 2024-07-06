@@ -1,0 +1,15 @@
+.errorBox {
+
+width: 100%;
+background-color: rgb(208, 43, 43)  ;
+color: wheat;
+border-radius: 0.5rem  ;
+padding: 1rem  ;
+margin: 2rem  ;
+margin-right: 0 !important;
+
+}
+.errorBox-text{
+    
+    font-size: 1.2rem  ;
+}
